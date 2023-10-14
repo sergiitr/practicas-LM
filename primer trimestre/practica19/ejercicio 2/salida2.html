@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 1 - JavaScript VII</title>
+    </head>
+    <script>
+        function obtenerdato(campo) {
+            var cadena= window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            var cadena2,parametros,i;
+            for (i=0; i < cadena.length; i++) {
+                parametros= cadena[i].split('=');
+                if(parametros[0] == campo) {
+                    cadena2= parametros[1];
+                }
+            }
+            return cadena2;
+        }
+        var color=obtenerdato("color");
+        var tip_letra=obtenerdato("letra");
+        var colorFondo=obtenerdato("fondo");
+        var frase=obtenerdato("frase");
+        
+        document.write("<body bgcolor="+colorFondo+"><p face="+tip_letra+" style=color:"+color+">"+frase.replace(/\+/g," ")+"</p></body>")
+    </script>
+</html>

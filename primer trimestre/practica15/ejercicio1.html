@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 1 - JavaScript III</title>
+    </head>
+    <body bgcolor="lightblue">
+        <h2>Ejercicio 1</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var i;
+            var contadorpares=0;
+            var sumadorpares=0;
+            document.write("<p>Los numeros del bucle son: </p>");
+            for (i=1; i<=100; i++) {
+                if (i==100) {
+                    document.write(i);
+                } else {
+                    document.write(i+" - ");
+                }
+                if (i%2==0) {
+                    contadorpares=contadorpares+1;
+                    sumadorpares=sumadorpares+i;
+                }
+            }
+            document.write("<br><br>Total Pares:" +contadorpares);
+            document.write("<br>Suma Pares:" +sumadorpares);
+        </script>
+    </body>
+</html>

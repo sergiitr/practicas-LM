@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 4 - JavaScript III</title>
+    </head>
+    <body bgcolor="lightblue">
+        <h2>Ejercicio 4</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var i;
+            var n1=prompt("Dime un numero: ");
+            var n2=prompt("Dime otro numero: ");
+            n1=parseInt(n1);
+            n2=parseInt(n2);
+            var sumador=0;
+            document.write("<h3>El primer numero es "+n1+" y el segundo es "+n2+"</h3>");
+            if (n2>n1) {
+                document.write("<p>Como el primer numero es mayor que el segundo, entonces hacemos el bucle de "+n1+" a "+n2+"<p>");
+                document.write("<p>Los numeros del bucle son: </p>");
+                for (i=n1; i<=n2; i++) {
+                    if (i==n2) {
+                        document.write(i);
+                    } else {
+                        document.write(i+" - ");
+                    }
+                    sumador=sumador+i;
+                }
+            } else {
+                document.write("<p>Como el segundo numero es mayor que el primero, entonces hacemos el bucle de "+n2+" a "+n1+"<p>");
+                document.write("<p>Los numeros del bucle son: </p>");
+                for (i=n2; i<=n1; i++) {
+                    if (i==n1) {
+                        document.write(i);
+                    } else {
+                        document.write(i+" - ");
+                    }
+                    sumador=sumador+i;
+                }
+            }
+            document.write("<br><br>La suma de los numeros da: " +sumador);
+        </script>
+    </body>
+</html>

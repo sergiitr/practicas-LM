@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 6 - JavaScript III</title>
+    </head>
+    <body bgcolor="lightyellow">
+        <h2>Ejercicio 6</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var i;
+            var n1=prompt("Dime un numero: ");
+            n1=parseInt(n1);
+            var resultado=1;
+            resultado=parseInt(resultado);
+            if (n1==1 || n1==0) {
+                document.write("<br>El factorial de "+n1+" da como resultado  " +resultado);
+            } else if (n1>1) {
+                document.write("<h4>La operacion que se realiza es la siguiente: </h4>");
+                for (i=n1; i>=1; i--) {
+                    if (i==1) {
+                        document.write(i);
+                    } else {
+                        document.write(i+" x ");
+                    }
+                    resultado=resultado*i;
+                }
+                document.write("<br>El factorial de "+n1+" da como resultado  " +resultado);
+            } else {
+                document.write("<h3>ERROR. No se puede hacer el factorial de "+n1+" ya que es numero negativo</h3>");
+            }
+        </script>
+    </body>
+</html>

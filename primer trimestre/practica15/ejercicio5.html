@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 5 - JavaScript III</title>
+    </head>
+    <body bgcolor="lightgray">
+        <h2>Ejercicio 5</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var i;
+            var base=prompt("Dime la base: ");
+            var exponente=prompt("Dime exponente: ");
+            base=parseInt(base);
+            exponente=parseInt(exponente);
+            var resultado=1;
+            if (exponente>=1) {
+                for (i=1; i<=exponente; i++) {
+                    resultado=resultado*base;
+                }
+                document.write("<br>La operación "+base+"<sup>"+exponente+"</sup> = " +resultado);
+            } else if (exponente==0) {
+                document.write("<br>La operación "+base+"<sup>"+exponente+"</sup> = " +resultado);
+            } else {
+                document.write("<h3>El numero introducido no es correcto</h3>");
+            }  
+        </script>
+    </body>
+</html>

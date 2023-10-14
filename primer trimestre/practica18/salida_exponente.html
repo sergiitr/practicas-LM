@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 1 - JavaScript VI</title>
+    </head>
+    <body style="background-color: lightblue;">
+        <script>
+            function obtenerdato(campo) {
+                var cadena= window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+                var cadena2,parametros,i;
+                for (i=0; i < cadena.length; i++) {
+                    parametros= cadena[i].split('=');
+                    if(parametros[0] == campo) {
+                        cadena2= parametros[1];
+                    }
+                }
+                return cadena2;
+            }
+            var i;
+            var base=parseInt(obtenerdato("base"));
+            var exponente=parseInt(obtenerdato("exponente"));
+            var resultado=1;
+            if (exponente>=1) {
+                for (i=1; i<=exponente; i++) 
+                    resultado=resultado*base;
+                
+                document.write("<br><h3>La operación "+base+"<sup>"+exponente+"</sup> = " +resultado+"</h3>");
+            } else if (exponente==0) 
+                document.write("<br><h3>La operación "+base+"<sup>"+exponente+"</sup> = " +resultado+"</h3>");
+            else
+                document.write("<h3>El numero introducido no es correcto</h3>");
+        </script>
+    </body>
+</html>

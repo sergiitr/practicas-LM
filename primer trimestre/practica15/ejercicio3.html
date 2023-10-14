@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 3 - JavaScript III</title>
+    </head>
+    <body bgcolor="lightgray">
+        <h2>Ejercicio 3</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var i;
+            var n1=prompt("Dime un numero: ");
+            var contadorpares=0;
+            var sumadorpares=0;
+            var contadorimpares=0;
+            var sumadorimpares=0;
+            document.write("<h3>El numero introducido es "+n1+"</h3>");
+            for (i=1;i<=n1;i++) {
+                if (i==n1) {
+                    document.write(i);
+                } else {
+                    document.write(i+" - ");
+                }
+                if (i%2==0) {
+                    contadorpares=contadorpares+1;
+                    sumadorpares=sumadorpares+i;
+                } else {
+                    contadorimpares=contadorimpares+1;
+                    sumadorimpares=sumadorimpares+i;
+                }
+            }
+            document.write("<br><br>Total pares: " +contadorpares);
+            document.write("<br>Suma pares: " +sumadorpares);
+            document.write("<br>Total imares: " +contadorimpares);
+            document.write("<br>Suma impares: " +sumadorimpares);
+        </script>
+    </body>
+</html>

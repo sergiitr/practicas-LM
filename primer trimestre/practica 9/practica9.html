@@ -1,0 +1,72 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Practica 9 - Formularios Avanzados</title>
+    </head>
+    <h1 align="center"> <font size="6"> Formularios I Sergio Trillo Rodriguez</font></hr></h1>
+    <p align="center"><img src="./foto.jpg"  width="400"></p>
+    <hr>
+    <body>
+        <form method="post">
+            <fieldset> <legend>Datos del vehiculo</legend>
+                <label for=”serie”>Matricula: </label>
+                <input type=”text” pattern=[0-9]{4}-[A-Z,a-z]{3} maxlength="8" name="serie" required placeholder="NNNN-AAA"/> 
+                <br>
+                <label for=”serie” required>Marca: </label>
+                <select name="marca">
+                    <optgroup label="Alemanes:">
+                        <option value="BMW">BMW</option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Opel">Opel</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Volkswagen">Volkswagen</option>
+                    </optgroup>
+                    <optgroup label="Japoneses:">
+                        <option value="Honda">Honda</option>
+                        <option value="Mazda">Mazda</option>
+                        <option value="Lexus">Lexus</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Nissan">Nissan</option>
+                    </optgroup>
+                    <optgroup label="Franceses:">
+                        <option value="Citröen">Citröen</option>
+                        <option value="Peugeot">Peugeot</option>
+                        <option value="Renault">Renault</option>
+                    </optgroup>
+                    <optgroup label="Italianos:">
+                        <option value="Alfa Romeo">Alfa Romeo</option>
+                        <option value="Fiat">Fiat</option>
+                        <option value="Ferrari">Ferrari</option>
+                        <option value="Lancia">Lancia</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label for=”serie”>Modelo: </label>
+                <br>
+                <textarea maxlength="30"></textarea>
+                <br>
+                <label for=”serie”>Fecha matricula: </label>
+                <input type="date">
+                <br>
+                <fieldset>
+                    <legend>Tipo de combustible</legend>
+                    <input type="radio" name="combustible" value="G">
+                    <label for="G">Gasolina</label><br>
+                    <input type="radio" name="combustible" value="D">
+                    <label for="D">Diesel</label><br>
+                    <input type="radio" name="combustible" value="H">
+                    <label for="H">Hibrido</label><br>
+                    <input type="radio" name="combustible" value="E">
+                    <label for="D">Electrico</label><br>
+                </fieldset>
+                <label for=”serie” required>Color: </label>
+                <input type="color">
+                <br>
+                <label for="serie">Potencia: </label>
+                <input type="range" name="pot" stem=5 min="0" max="600">
+                <br>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>

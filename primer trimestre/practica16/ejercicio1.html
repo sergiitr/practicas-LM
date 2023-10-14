@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 1 - JavaScript IV</title>
+    </head>
+    <body style="background-color: lightyellow;">
+        <h2>Sergio Trillo Rodriguez</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var i=0;
+            var asteriscos='*';
+            var n1=prompt("Dime un numero: ");
+            document.write("<p align=center>Hemos pedido "+n1+" asteriscos</p>");
+            if (n1%2 == 0) {
+                document.write("<p align=center> <font color=blue>"+n1);
+                while (i < n1)  {
+                    document.write(asteriscos);
+                    i=i+1;
+                }
+                document.write("</p> </font>");
+            } else {
+                document.write("<p align=center><font color=red>"+n1);
+                while (i < n1)  {
+                    document.write(asteriscos);
+                    i=i+1;
+                }
+                document.write("</p></font>")
+            }
+        </script>
+    </body>
+</html>

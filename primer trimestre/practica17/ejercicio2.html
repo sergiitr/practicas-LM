@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 2 - JavaScript V</title>
+    </head>
+    <body style="background-color: lightblue;">
+        <h2>Ejercicio 2 - Sergio Trillo Rodriguez</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            function suma(n1, n2) {
+                var sum=0;
+                return sum=parseInt(n1)+parseInt(n2);
+            }
+            function resta(n1, n2) {
+                var rest=0;
+                if(n1>n2){
+                    return rest=n1-n2;
+                } else {
+                    return rest=n2-n1;
+                }
+            }
+            function multiplicacion(n1, n2) {
+                var mult=0;
+                return mult=n1*n2;
+            }
+            function division(n1, n2) {
+                var div=0;
+                if(n1>n2)   return div=n1/n2;
+                else        return div=n2/n1;
+            }
+            var n1=prompt("Dime el primer numero: ");
+            var n2=prompt("Dime el segundo numero: ");
+            document.write("La suma de "+n1+" y "+n2+" da como resultado: "+suma(n1,n2));
+            document.write("<br>La resta de "+n1+" y "+n2+" da como resultado: "+resta(n1,n2));
+            document.write("<br>Las multiplicacion de "+n1+" y "+n2+" da como resultado: "+multiplicacion(n1,n2))
+            document.write("<br>Las division de "+n1+" y "+n2+" da como resultado: "+division(n1,n2));
+        </script>
+    </body>
+</html>

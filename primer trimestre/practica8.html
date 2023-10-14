@@ -1,0 +1,111 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+		<title> Practica 8: Formularios </title>
+	</head>
+    
+    <h1 align="center"> <font size="6"> Formularios I Sergio Trillo Rodriguez</font></hr></h1>
+    <body>
+        </br>
+        <h2>Ejercicio 1</h2>
+        <form method=post action="mailto:marincarbajo@loscerros.org">
+            <table border=1 align="center">
+                <tr>
+                    <td>Nombre de usuario: </td>
+                    <td>
+                        <input type=text name="nombre" required placeholder="Introduzca el nombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contraseña </td>
+                    <td>
+                        <input type="password" name="clave" required minlength="8">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Enviar Mensaje</button>
+                        <button type="reset">Borrar Datos</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <br> <hr>
+
+        <h2>Ejercicio 2</h2>
+        <form method=post action="mailto:marincarbajo@loscerros.org" style="background-color:grey">
+            <font face="Verdana"> 
+                <font size=5><b>Envio Datos Personales de Sergio Trillo Rodriguez</b></font>
+                <table border="2">
+                    <td>
+                        <table border="0" align="left" style="background-color:grey">
+                            <tr>
+                                <td>DNI: </td>
+                                <td>
+                                    <input type=text name="nombre" placeholder="Introduzca DNI" required minlength="9" maxlength="9" size="9">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Nombre: </td>
+                                <td>
+                                    <input type=text name="nombre" placeholder="Introduzca el Nombre">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Fecha de Nacimiento: </td>
+                                <td>
+                                    <input type=date name="nombre" placeholder="dd/mm/aaaa">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Sexo: </td>
+                                <td>
+                                    Masculino: <input type="radio" name="sexo">
+                                    <br>
+                                    Femenino: <input type="radio" name="sexo">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Puesto solicitado: </td>
+                                <td>
+                                    <select name="puesto" id="lang">
+                                        <option value="selecciona">Seleccione una opcion
+                                        <option value="Conserje">Conserje
+                                        <option value="Administrativo">Administrativo
+                                        <option value="Programador">Programador
+                                        <option value="Analista">Analista
+                                        <option value="Jefe de Proyecto">Jefe de Proyecto
+                                        <option value="Coordinador de Proyectos">Coordinador de Proyectos
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Comentarios: </td>
+                                <td>
+                                    <textarea name="comentarios" rows="8" cols="20" placeholder="Introduzca el Nombre"> </textarea>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Foto: </td>
+                                <td>
+                                    <input type="file" name="archivosubido" accept="image/png, .jpeg, .jpg, image/gif">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </table>
+                <td>
+                    <button type="submit">Enviar Datos</button>
+                    <button type="reset">Limpiar Formulario</button>
+                </td>
+            </font>
+        </form>
+    </body>
+</html>

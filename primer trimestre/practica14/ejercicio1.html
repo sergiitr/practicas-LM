@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 1 - JavaScript II</title>
+    </head>
+    <body style="background-color:yellowgreen;">
+        <font face="Calibri" color="blue">
+            <script lenguage="JavaScript" type="text/JavaScript">
+                var n1 = prompt("Dime un numero: ");
+                var n2 = prompt("Dime otro numero: ");
+                document.write("La suma de "+n1+" y "+n2+" es: ");
+                document.write(parseInt(n1)+parseInt(n2));
+                if(n1>n2) {
+                    document.write("<br>La resta de "+n1+" y "+n2+" es: ");
+                    document.write(parseInt(n1)-parseInt(n2));
+                } else {
+                    document.write("<br>La resta de "+n2+" y "+n1+" es: ");
+                    document.write(parseInt(n2)-parseInt(n1));
+                }
+                document.write("<br>El producto de "+n1+" y "+n2+" es: ");
+                document.write(parseInt(n1)*parseInt(n2));
+                document.write("<br>La division de "+n1+" / "+n2+" es: ");
+                var n3=parseInt(n1)/parseInt(n2);
+                document.write(n3.toFixed(2));
+            </script>
+        </font>
+    </body>
+</html>

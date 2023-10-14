@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 3 - JavaScript II</title>
+    </head>
+    <body>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var n1 = prompt("Dime un numero: ");
+            var n2 = prompt("Dime otro numero: ");
+            
+            document.write("<table border=1 align=center>");
+                document.write("<tr>");
+                    document.write("<th bgcolor='grey'>Operaciones</th>");
+                    document.write("<th bgcolor='grey' colspan=2>Num1: "+n1+"  Num2: "+n2+"</th>");
+                document.write("</tr>");
+                document.write("<tr>");
+                document.write("<td align=center>Suma</td>");
+                var suma = parseInt(n1)+parseInt(n2);
+                document.write("<td colspan=2 align=center>"+suma+"</td>");
+                document.write("</tr>");
+                document.write("<tr>");
+                document.write("<td align=center>Resta</td>");
+                var resta=0;
+                    if(n1>n2) {
+                        resta=parseInt(n1)-parseInt(n2);
+                        document.write("<td colspan=2 align=center>"+resta+"</td>");
+                    } else {
+                        resta=parseInt(n2)-parseInt(n1);
+                        document.write("<td colspan=2 align=center>"+resta+"</td>");
+                    }
+                document.write("</tr>");
+                document.write("<tr>");
+                    document.write("<td align=center>Multiplicacion</td>");
+                    var multiplicacion = parseInt(n1)*parseInt(n2);
+                    document.write("<td colspan=2 align=center>"+multiplicacion+"</td>");
+                document.write("</tr>")
+                document.write("<tr>");
+                    document.write("<td align=center>Division</td>");
+                    var division = parseInt(n1)/parseInt(n2);
+                    document.write("<td colspan=2 align=center>"+division.toFixed(2)+"</td>");
+                document.write("</tr>");
+                document.write("<tr>");
+                    document.write("<th colspan=3 bgcolor='grey' align=center>Sergio Trillo Rodriguez</th>");
+                document.write("</tr>");
+            document.write("</table>");
+        </script>
+    </body>
+</html>

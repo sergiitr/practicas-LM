@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 2 - JavaScript IV</title>
+    </head>
+    <body style="background-color: lightblue;">
+        <h2>Sergio Trillo Rodriguez</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var n1 = prompt("Dime un numero: ");
+            var i=1;
+            document.write("<table border=1 align=center>");
+                document.write("<th colspan=5 bgcolor='grey' align=center>Tabla de multiplicar del " +n1+ "</th>");
+                do {
+                    if (i%2 == 0) {
+                        document.write("<tr bgcolor='lightgrey'>");
+                            document.write("<td align=center>"+n1+"</td>");
+                            document.write("<td align=center>*</td>");
+                            document.write("<td align=center>"+i+"</td>");
+                            document.write("<td align=center>=</td>");
+                            document.write("<td align=center>"+n1*i+"</td>");
+                        document.write("</tr>"); 
+                        i++
+                    } else {
+                        document.write("<tr>");
+                            document.write("<td align=center>"+n1+"</td>");
+                            document.write("<td align=center>*</td>");
+                            document.write("<td align=center>"+i+"</td>");
+                            document.write("<td align=center>=</td>");
+                            document.write("<td align=center>"+n1*i+"</td>");
+                        document.write("</tr>"); 
+                        i++;
+                    }
+                } while (i<=10);
+            document.write("</table>")
+        </script>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ejercicio 2 - JavaScript III</title>
+    </head>
+    <body bgcolor="lightyellow">
+        <h2>Ejercicio 2</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var i;
+            var n1=prompt("Dime un numero: ");
+            var contadorpares=0;
+            var sumadorpares=0;
+            document.write("<h3>El numero introducido es "+n1+"</h3>");
+            if (n1>=1) {
+                for (i=1; i<=n1; i++) {
+                    if (i==n1) {
+                        document.write(i);
+                    } else {
+                        document.write(i+" - ");
+                    }
+                    if (i%2==0) {
+                        contadorpares=contadorpares+1;
+                        sumadorpares=sumadorpares+i;
+                    }
+                }
+                document.write("<br><br>Total Pares: " +contadorpares);
+                document.write("<br>Suma Pares: " +sumadorpares);
+            } else {
+                document.write("<h4>Numero negativo. No se puede realizar</h4>")
+            }
+        </script>
+    </body>
+</html>
