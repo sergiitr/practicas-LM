@@ -1,0 +1,134 @@
+body {
+    background-image: url(./imagenes/fondo.gif);
+    background-size: norepeat;
+}
+
+h1 {
+    text-align: center;
+    color:yellow;
+    background-color: blue;
+}
+
+p,input,select,label, .extras3 {
+    font: small-caps 100% serif;
+}
+
+img {
+    width: 629px;
+    height: 629px;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+b {
+    font: small-caps 100% serif;
+    background-color: red;
+    color:white;
+    font-size: 20px;
+}
+
+form{
+    font-family:monospace;
+    font-size: 20px;
+}
+
+.botones {
+    text-decoration: none;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: rgb(200, 255, 0);
+    color: #ff0000;
+    border-radius: 20px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+}
+
+.botones:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(114, 52, 196);
+    padding: 12px 20px;
+}
+
+.botones:active{
+    transform: scale(0.7);
+    box-shadow: 3px 2px 22px 1px rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    padding: 20px; 
+}
+
+select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+    color:white;
+}
+
+select:focus{
+    outline: none;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.content-input input, .content-select select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+ 
+.content-input input{
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+}
+
+.content-input{
+    position: relative;
+    margin-bottom: 30px;
+    padding:5px 0 5px 70px;
+}
+ 
+.content-input input + i{
+    background: #f0f0f0;
+    border:2px solid rgba(0,0,0,0.2);
+    position: absolute; 
+    left: 0;
+    top: 0;
+}
+ 
+.content-input input[type=checkbox] + i{
+    width: 52px;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.content-input input[type=checkbox] + i:before{
+    content: '';
+    width: 25px;
+    height: 22px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1px;
+    left: 0px;
+    top: -1px;
+    -webkit-box-shadow: 2px 2px 22px red;
+    box-shadow: 2px 2px 20px red;
+    transition: all 0.1 ease 0.1;
+}
+
+.content-input input[type=checkbox]:checked + i:before{
+    left: 25px;
+    box-shadow: 2px 2px 20px red;
+}
+ 
+.content-input input[type=checkbox]:checked + i{
+    background: red;
+}

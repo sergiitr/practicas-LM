@@ -1,0 +1,68 @@
+body {
+    vertical-align:middle;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: pink;
+    text-decoration: underline;
+}
+
+h6 {
+    color: white;
+    background-color: grey;
+}
+
+.tabla{
+    background-color:black;
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+}
+
+.p2 {
+    text-align: center;
+    background-color:brown;
+    color: yellow;
+}
+
+.practicas {
+    text-align: center;
+    background-color:red;
+    color: blue;
+}
+
+a:link {
+    font-size: 12px;
+    color: green;
+    font-family:'Courier';
+}
+
+a:visited {
+    background-color:gray;
+    color: black;
+    font-style: italic;
+}
+
+a:active {
+    color:red;
+    font-weight: bold;
+}
+
+a:hover {
+    color:red;
+    font-weight: bold;
+}
+
+td {
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,209 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+        <link rel="script" type="text/javascript" href="scripts.js"/>
+    </head>
+    <body>
+        <script src="scripts.js"></script> 
+        <h1>VENTA CURSOS AJEDREZ</h1>
+        <table id="tablaPrincipal" align="center">
+            <tr>
+                <td><img id="imagen" src="./imagenes/inicial.png"> </td>
+                <td>
+                    <table border="0">
+                        <tr>
+                            <td rowspan="20" width="150" align="center"><p class="boton" id="inscripcion">Inscripción (15€)</p></td>
+                            <td align="center"><b>Subscripción Aperturas abiertas</b></td>
+                            <td rowspan="20" width="350">
+                                <form>
+                                    <label form="oficio" id="oficio">Seleccione su oficio: </label>
+                                    <br>
+                                    <select onChange="descuento(this)" id="selectOpt">
+                                        <option value="" selected disabled>---</option>
+                                        <option value="profesor">Profesor</option>
+                                        <option value="estudiante">Estudiante</option>
+                                        <option value="biblio">Bibliotecario</option>
+                                        <option value="otros">Otros</option>
+                                    </select>
+                                </form>
+                                <p align="left">Descuento aplicado tras la primera compra</p>
+                            </td>
+                            <td rowspan="20">
+                                <table align="center">
+                                    <td>
+                                        <tr>
+                                            <td width="200"><p>Precio base:</p></td>
+                                            <td width="70"><p>15€</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="200"><p>Precio extras:</p></td>
+                                            <td width="70"><p id="extras">0€</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="200"><p>Precio subscripcion:</p></td>
+                                            <td width="70"><p id="subs">0€</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="200"><p>Descuento:</p></td>
+                                            <td width="70"><p id="descuento">0%</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="200"><p>Precio final curso:</p></td>
+                                            <td width="70"><p id="total"> 15€</p></td>
+                                        </tr>
+                                    </td>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="espanola">
+                                    <label class="content-input"><input class="aperturas" name="abiertas" type="checkbox" onclick="if(this.checked) suma(5,'espanola','Apertura espanola'); else resta(5,'espanola','Apertura espanola')"><i></i></label></input>Apertura española - 5€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="italiana">
+                                    <label class="content-input"><input class="aperturas" name="abiertas" type="checkbox" onclick="if(this.checked) suma(7,'italiana','Apertura italiana'); else resta(7,'italiana','Apertura italiana')"><i></i></label></input>Apertura italiana - 7€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="dragon">
+                                    <label class="content-input"><input class="aperturas" name="abiertas" type="checkbox" onclick="if(this.checked) suma(11,'dragon','Siciliana dragon'); else resta(11,'dragon','Siciliana dragon')"><i></i></label></input>Defensa Siciliana, Variante Dragon - 11€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="lowenthal">
+                                    <label class="content-input"><input class="aperturas" name="abiertas" type="checkbox" onclick="if(this.checked) suma(8.75,'lowenthal','Siciliana lowenthal'); else resta(8.75,'lowenthal','Siciliana lowenthal')"><i></i></label></input>Defensa Siciliana, Variante Lowenthal - 8.75€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="franceAv">
+                                    <label class="content-input"><input class="aperturas" name="abiertas" type="checkbox" onclick="if(this.checked) suma(7,'franceAv','Francesa Avance'); else resta(7,'franceAv','Francesa Avance')"><i></i></label></input>Defensa francesa, Variante del Avance - 7€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="alekhinhe">
+                                    <label class="content-input"><input class="aperturas" name="abiertas" type="checkbox" onclick="if(this.checked) suma(4.75,'alekhinhe','Francesa Avance'); else resta(4.75,'alekhinhe','Francesa Avance')"><i></i></label></input>Defensa alekhinhe - 4.75€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p><b>Subscripción Aperturas cerradas</b></p></td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="gambDama">
+                                    <label class="content-input"><input class="aperturas" name="cerradas" type="checkbox" onclick="if(this.checked) suma(5.99,'gambDama','Gambito de dama'); else resta(5.99,'gambDama','Gambito de dama')"><i></i></label></input>Gambito de dama - 5.99€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="Benoni">
+                                    <label class="content-input"><input class="aperturas" name="cerradas" type="checkbox" onclick="if(this.checked) suma(8.49,'Benoni','Benoni'); else resta(8.49,'Benoni','Benoni')"><i></i></label></input>Benoni - 8.49€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="BenoniMo">
+                                    <label class="content-input"><input class="aperturas" name="cerradas" type="checkbox" onclick="if(this.checked) suma(8.99,'BenoniMo','Benoni Moderna'); else resta(8.99,'BenoniMo','Benoni Moderna')"><i></i></label></input>Benoni Moderna - 8.99€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="grunfeld">
+                                    <label class="content-input"><input class="aperturas" name="cerradas" type="checkbox" onclick="if(this.checked) suma(7.25,'grunfeld','grunfeld'); else resta(7.25,'grunfeld','grunfeld')"><i></i></label></input>Defensa Grunfeld - 7.25€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="indiaRey">
+                                    <label class="content-input"><input class="aperturas" name="cerradas" type="checkbox" onclick="if(this.checked) suma(6.5,'indiaRey','Benoni'); else resta(6.5,'indiaRey','Benoni')"><i></i></label></input>Defensa india de rey - 6.5€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p><b>Subscripción Aperturas semiabiertas</b></p></td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="bird">
+                                    <label class="content-input"><input class="aperturas" name="semiabiertas" type="checkbox" onclick="if(this.checked) suma(2.75,'bird','bird'); else resta(2.75,'bird','bird')"><i></i></label></input>Apertura Bird - 2.75€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p><b>Subscripción Aperturas semicerradas</b></p></td>
+                        </tr>
+                        <tr height="30">
+                            <td>
+                                <p id="inglesa">
+                                    <label class="content-input"><input class="aperturas" name="semicerradas" type="checkbox" onclick="if(this.checked) suma(3.75,'inglesa','inglesa'); else resta(3.75,'inglesa','inglesa')"><i></i></label></input>Apertura Inglesa - 3.75€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center"><p><b>Subscripción Aperturas irregulares</b></p></td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="nimzolarsen">
+                                    <label class="content-input"><input class="aperturas" name="irregulares" type="checkbox" onclick="if(this.checked) suma(1.75,'nimzolarsen','Ataque nimzolarsen'); else resta(1.75,'nimzolarsen','Ataque nimzolarsen')"><i></i></label></input>Ataque nimzolarsen - 1.75€
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="30">
+                                <p id="polish">
+                                    <label class="content-input"><input class="aperturas" name="irregulares" type="checkbox" onclick="if(this.checked) suma(1.75,'polish','Ataque polish'); else resta(1.75,'polish','Ataque polish')"><i></i></label></input>Ataque polish - 1.75€
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <br>
+                    <form name="ejemplo1">
+                        ¿Desea subscribirte a nuestro boletín de aperturas? <br>
+                        <input type="radio" name="boletin" value="si" checked onClick="habilitaTipos(this.form)"> Sí, quiero inscribirme.
+                        <input type="radio" name="boletin" value="no" onClick="deshabilitaTipos(this.form)"> No, gracias.
+                        <br>
+                        Seleccione aperturas de su interés:<br>
+                        <table align="center">
+                            <tr>
+                                <td width="150" align="center">Abiertas (1€)</td>
+                                <td width="150" align="center">Cerradas (1.25€)</td>
+                                <td width="150" align="center">Semiabiertas (0.75€)</td>
+                                <td width="150" align="center">Semicerradas (0.75€)</td>
+                                <td width="150" align="center">Irregulares (0.5€)</td>
+                            </tr>
+                            <tr>
+                                <td width="150" align="center"><input type="button" class="botones" id="Abiertas" name="apertura" onclick='cambioAbiertas("./imagenes/abiertas.png","Apertura Abiertas",1,"abiertas");'></td>
+                                <td width="150" align="center"><input type="button" class="botones" id="Cerradas" name="apertura" onclick='cambioCerradas("./imagenes/cerradas.png","Apertura Cerradas",1.25,"cerradas");'></td>
+                                <td width="150" align="center"><input type="button" class="botones" id="Semiabiertas" name="apertura" onclick='cambioSemiAbiertas("./imagenes/semiabiertas.png","Apertura Semiabiertas",0.75,"semiab");'></td>
+                                <td width="150" align="center"><input type="button" class="botones" id="Semicerradas" name="apertura" onclick='cambioSemiCerradas("./imagenes/semicerradas.png","Apertura Semicerradas",0.75,"semicerr")'></td>
+                                <td width="150" align="center"><input type="button" class="botones" id="Irregulares" name="apertura" onclick='cambioIrregulares("./imagenes/irregulares.png","Apertura Irregulares",0.5,"irregulares");'></td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>    
+    </body>
+</html>

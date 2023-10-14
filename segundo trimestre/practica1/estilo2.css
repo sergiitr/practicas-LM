@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1{
+    color: rgb(0, 2, 95);
+}
+
+a:link {
+    font-size: 12px;
+    color: blue;
+    font-family:'Courier';
+}
+
+a:visited {
+    background-color:gray;
+    color: black;
+    font-style: italic;
+}
+
+a:active {
+    color:red;
+    font-weight: bold;
+}
+
+a:hover {
+    color:red;
+    font-weight: bold;
+}

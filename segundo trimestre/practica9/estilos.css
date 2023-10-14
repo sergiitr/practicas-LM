@@ -1,0 +1,93 @@
+body {
+    background-color: lightgreen;
+    text-align: center;
+    font-family:'Calibri';
+}
+
+h2 {
+    color:yellow;
+    background-color: blue;
+}
+
+h3 {
+    color:blue;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:visited {
+    color:brown;
+}
+
+a:link {
+    color:blue;
+}
+
+table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-input input, .content-select select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+ 
+.content-input input{
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+}
+
+.content-input{
+    position: relative;
+    margin-bottom: 30px;
+    padding:5px 0 5px 100px;
+}
+ 
+.content-input input + i{
+    background: #f0f0f0;
+    border:2px solid rgba(0,0,0,0.2);
+    position: absolute; 
+    left: 0;
+    top: 0;
+}
+ 
+.content-input input[type=checkbox ] + i{
+    width: 52px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.content-input input[type=checkbox] + i:before{
+    content: '';
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    -webkit-box-shadow: 2px 2px 20px #0400ff;
+    box-shadow: 2px 2px 20px #0400ff;
+    transition: all 0.1 ease 0.1;
+}
+
+.content-input input[type=checkbox]:checked + i:before{
+    left: 22px;
+    box-shadow: 2px 2px 20px #0400ff;
+}
+ 
+.content-input input[type=checkbox]:checked + i{
+    background: #172fe1;
+}
+
+.p2 {
+    text-align: right;
+}

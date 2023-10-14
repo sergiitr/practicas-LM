@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    </head>
+    <body>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var xneg = 0;
+            function Negrita() {
+                if(xneg%2 == 0)
+                    document.getElementById("botones").style.fontWeight = "bold";
+                else 
+                    document.getElementById("botones").style.fontWeight = "normal";
+                xneg = xneg+1;
+            }
+
+            var xcolor=0;
+            function Color() {
+                if(xcolor%2 == 0)
+                    document.getElementById("botones").style.color = "blue";
+                else
+                    document.getElementById("botones").style.color = "black";
+                xcolor = xcolor+1;
+            }
+
+            var xcursiva=0;
+            function Cursiva() {
+                if(xcursiva%2 == 0)
+                    document.getElementById("botones").style.fontStyle = "italic";
+                else
+                    document.getElementById("botones").style.fontStyle = "normal";
+                xcursiva = xcursiva+1;
+            }
+
+            var xtamanio=0;
+            function Tamanio() {
+                if(xtamanio%2 == 0)
+                    document.getElementById("botones").style.fontSize = "30px";
+                else
+                    document.getElementById("botones").style.fontSize = "16px";
+                xtamanio = xtamanio+1;
+            }
+
+            var xletra=0;
+            function Letra() {
+                if(xletra%2 == 0)
+                    document.getElementById("botones").style.fontFamily = "Verdana";
+                else
+                    document.getElementById("botones").style.fontFamily = "normal";
+                xletra = xletra+1;
+            }
+
+            var xocultar=0;
+            function Ocultar() {
+                if(xocultar%2 == 0)
+                    document.getElementById("botones").style.visibility = "hidden";
+                else
+                    document.getElementById("botones").style.visibility = "visible";
+                xocultar = xocultar+1;
+            }
+
+            function Defecto() {
+                document.getElementById("botones").style.visibility = "visible"
+                document.getElementById("botones").style.fontSize = "16px";
+                document.getElementById("botones").style.fontStyle = "normal";
+                document.getElementById("botones").style.fontWeight = "normal";
+                document.getElementById("botones").style.color = "black";
+                document.getElementById("botones").style.fontFamily = "normal";
+            }
+        </script>
+        <p id="botones">Texto</p>
+        <button class="botones" onclick='Color()'>Color</button>
+        <button class="botones" onclick='Negrita()'>Negrita</button>
+        <button class="botones" onclick='Cursiva()'>Cursiva</button>
+        <button class="botones" onclick='Tamanio()'>Tamaño</button>
+        <button class="botones" onclick='Letra()'>Letra</button>
+        <button class="botones" onclick='Ocultar()'>Ocultar</button>
+        <button class="botones" onclick='Defecto()'>Por Defecto</button>
+        <p>Fichero listado de estilos <a href="./estilos.css">aqui</a></p>
+    </body>
+</html>
+
+

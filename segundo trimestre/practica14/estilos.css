@@ -1,0 +1,255 @@
+body {
+    background-color: lightgreen;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    background: lightyellow;
+    border: 1px solid lightcoral;
+    border-radius: 5px 5px 5px 5px;
+    color: #393939;
+    font-size: 12px;
+    padding: 5px;   
+}
+
+legend {
+    text-align: left;
+    font-weight: bold;
+    border:2px dotted #00f;
+    background-color:#ddd;
+}
+
+fieldset {
+    background-color: lightskyblue;
+}
+
+#titulo {
+    background:black;
+	color: red;
+	height: 50px;
+    font-size: 22px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-weight:bold;
+}
+
+.correo {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 290px;
+    margin-left: 40%;
+
+}
+  
+.correo > span, .correo .datos {
+    white-space: nowrap;
+    display: block;
+}
+
+.correo > span, .correo .datos:first-child {
+    border-radius: 6px 0 0 6px;
+}
+  
+.correo > span, .correo .datos {
+    border-radius: 0 6px 6px 0;
+}
+  
+.correo > span, .correo .datos {
+    margin-left: -1px;
+}
+
+.correo .datos {
+    position: relative;
+    z-index: 1;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.correo span {
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #6b7385;
+    background: #d4def5;
+    border: 1px solid #CDD9ED;
+    font-weight: bold;
+    transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.correo:focus-within > span {
+    color: #fff;
+    background-color: #148cd1;
+    border-color: #148cd1;
+}
+
+
+.datos {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.datos:focus, .datos:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+}
+
+.datos::placeholder {
+    color: #777;
+}
+
+.datos:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+
+#nombre,#id,#correo,#contrasena {
+    width : 170px;
+}
+
+button {
+    position: relative;
+    text-decoration: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 48px;
+    width: 160px;
+    font-weight: bold;
+    height: 55px;
+    -webkit-box-reflect: bottom 1px linear-gradient(transparent, #0004);
+}
+
+button span {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+    text-align: center;
+    background: #2E2E2E;
+    color: rgba(255, 255, 255, 0.781);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+button:hover span {
+    color: rgba(255,255,255,1);
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 400%;
+    opacity: 0;
+    transition: 0.5s;
+    background: linear-gradient(45deg,#91155d,#525296,#0f0,#ff0,#fb0094,#00f,#0f0,#ff0);
+    animation: animate123 20% linear infinte;
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 400%;
+    filter: blur(20px);
+    transition: 0.5s;
+    background: linear-gradient(45deg,#91155d,#525296,#0f0,#ff0,#fb0094,#00f,#0f0,#ff0);
+    animation: animate123 20% linear infinte;
+}
+
+button:hover::before, button:hover::after {
+    opacity: 1;
+}
+   
+@keyframes animate123 {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 300% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+   
+button span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255,255,255,0.1);
+}
+
+#piepag {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 27px;
+    padding-bottom: 16px;
+    background: #111;
+    border-top: 2px solid #f00;
+    z-index:2000;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#si,#no {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+  
+#si:checked,#no:checked {
+    border: 6px solid black;
+}
+
+select {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color:black;
+    border: 1px solid #ccc;
+}

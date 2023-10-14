@@ -1,0 +1,32 @@
+body{
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2{
+    color:yellowgreen;
+    background-color: black;
+    font-family: 'Times New Roman';
+    text-align: left;
+}
+
+img{
+    height: 200px;
+}
+
+img:hover{
+    height: 200px;
+    border-radius:15%;
+    transform: scale(1.25);
+}
+
+input {
+    background-color: lightcoral;
+    border-radius:20%;
+}
+
+input:hover {
+    background-color: lightseagreen;
+    border-radius:20%;
+}

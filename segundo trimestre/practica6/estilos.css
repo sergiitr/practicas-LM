@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    font-family: 'Auriel';
+    text-align: center;
+}
+
+button {
+    color:yellowgreen;
+    background-color: brown;
+    border-radius:20%;
+}
+
+button:hover {
+    color:yellowgreen;
+    background-color: black;
+    border-radius:20%;
+}

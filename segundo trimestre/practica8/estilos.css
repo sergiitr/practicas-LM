@@ -1,0 +1,26 @@
+body {
+    background-color: lightgreen;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h2 {
+    color:yellow;
+    background-color: blue;
+}
+
+h3 {
+    color:blue;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:visited {
+    color:brown;
+}
+
+a:link {
+    color:blue;
+}

@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+    font-family: 'Arial';
+    text-decoration: underline;
+}
+
+h2 {
+    color: green;
+    text-decoration: underline;
+}
+
+ol {
+    color: grey;
+    font-family: 'Calibri';
+}
+
+ul {
+    color: yellowgreen;
+    font-family: 'Times New Roman';
+}
+
+.ol1 {
+    font-weight: bold;
+    list-style-type: lower-greek;
+}
+.ol2 {
+    font-style: italic;
+    list-style-type: upper-roman;
+}
+.conimagen {
+    list-style-image: url("logo.png");
+    list-style-position: inside;
+}
+
+.ol3 {
+    font-weight: bold;
+    list-style-type: disc;
+}

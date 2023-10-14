@@ -1,0 +1,126 @@
+body {
+    background-color: rgba(145, 145, 145, 0.5);
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 21px;
+    color: blue;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+img {
+    height: 270px;
+    border-radius: 20px;
+}
+
+img:hover {
+    height: 270px;
+    border-radius:15%;
+    transform: scale(1.1);
+}
+
+li {
+    list-style-image: url("lista.JPG");
+    list-style-position: inside;
+}
+
+.l1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.l2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.l3 {
+    color: white;
+}
+
+a {
+    color:red;
+}
+
+.container {
+    display: inline-flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+}
+  
+.item {
+    padding: 20px;
+    text-align: left;
+}
+
+#titulo {
+    background:black;
+	color: red;
+	height: 50px;
+    font-size: 22px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-weight:bold;
+}
+
+#pelis1 {
+    margin:left;
+    width: 350px;
+    height: 350px;
+    font-size: 17px;
+    background-color: lightblue;
+}
+
+#pelis2 {
+    width: 350px;
+    height: 350px;
+    font-size: 17px;
+    background-color: lightcoral;
+}
+
+#pelis3 {
+    margin:right;
+    width: 350px;
+    height: 350px;
+    font-size: 17px;
+    background-color: rgb(88, 88, 0);
+}
+
+#piepag {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 27px;
+    padding-bottom: 16px;
+    background: #111;
+    border-top: 2px solid #f00;
+    z-index:2000;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#izq {
+    width: 50%;
+    float:left;
+}
+
+#der {
+    width: 50%;
+    float:right;
+}
+
+#cabe {
+    margin-left: 20%;
+}

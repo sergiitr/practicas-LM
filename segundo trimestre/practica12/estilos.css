@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(145, 145, 145, 0.5);
+}
+
+h1{
+    font-size: 25px;
+}
+
+img {
+    padding-left: 95px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+}
+  
+.item {
+    padding: 20px;
+    text-align: left;
+}
+
+#titulo {
+    width: auto;
+    height: 32px;
+    color:aqua;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#act1{
+    margin:left;
+    width: 350px;
+    height: 400px;
+    font-size: 17px;
+    background-color: lightblue;
+    margin-left: 110px;
+}
+
+#act2{
+    width: 350px;
+    height: 400px;
+    font-size: 17px;
+    background-color: lightcoral;
+    margin-left: 110px;
+}
+
+#act3{
+    margin:right;
+    width: 350px;
+    height: 400px;
+    font-size: 17px;
+    background-color: lightgoldenrodyellow;
+    margin-left: 110px;
+}
+
+#act4{
+    width: 350px;
+    height: 400px;
+    font-size: 17px;
+    background-color: lightgreen;
+    margin-left: 110px;
+}
+
+#act5{
+    width: 350px;
+    height: 400px;
+    font-size: 17px;
+    background-color: lightyellow;
+    margin-left: 110px;
+}
+
+#act6{
+    margin:right;
+    width: 350px;
+    height: 400px;
+    font-size: 17px;
+    background-color: lightseagreen;
+    margin-left: 110px;
+}
+
+#piepag {
+    top:20000px;
+    width:auto;
+    height: 20px;
+    border-style: solid;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 17px;
+}

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    </head>
+    <body>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            var preciototal=0;
+            parseFloat(preciototal);
+            function suma(valor,idt) {
+                preciototal=parseFloat(document.getElementById("total").innerHTML)+parseFloat(valor);
+                document.getElementById(idt).style.color="red";
+                preciototal=preciototal.toFixed(2);
+                document.getElementById("total").innerHTML=preciototal;
+            }
+            function resta(valor,idt) {
+                preciototal=parseFloat(document.getElementById("total").innerHTML)-parseFloat(valor);
+                document.getElementById(idt).style.color="blue";
+                preciototal=preciototal.toFixed(2);
+                document.getElementById("total").innerHTML=preciototal;
+            }
+        </script>
+        <h2>Lista de la compra</h2>
+        <hr>
+        <p id="cervezas"><input id="cervezas" type="checkbox" class="productos" onclick="if(this.checked) suma(7,'cervezas'); else resta(7,'cervezas')">Cervezas - 7€</input></p>
+        <p id="jamonYork"><input id="jamonYork" type="checkbox" class="productos" onclick="if(this.checked) suma(2,'jamonYork'); else resta(2,'jamonYork')">Jamon de York - 2€</input></p>
+        <p id="panMolde"><input id="panMolde" type="checkbox" class="productos" onclick="if(this.checked) suma(3,'panMolde'); else resta(3,'panMolde')">Pan de molde - 3€</input></p>
+        <p id="cafe"><input id="cafe" type="checkbox" class="productos" onclick="if(this.checked) suma(4,'cafe'); else resta(4,'cafe')">Café - 4€</input></p>
+        <p id="leche"><input id="leche" type="checkbox" class="productos" onclick="if(this.checked) suma(2,'leche'); else resta(2,'leche')">Leche - 2€</input></p>
+        <p id="vino"><input id="vino" type="checkbox" class="productos" onclick="if(this.checked) suma(8,'vino'); else resta(8,'vino')">Vino - 8€</input></p>
+        <p id="gelDucha"><input id="gelDucha" type="checkbox" class="productos" onclick="if(this.checked) suma(4,'gelDucha'); else resta(4,'gelDucha')">Gel de Ducha - 4€</input></p>
+        <p id="galletas"><input id="galletas" type="checkbox" class="productos" onclick="if(this.checked) suma(5,'galletas'); else resta(5,'galletas')">Galletas - 5€</input></p>
+        <p id="aceite"><input id="aceite" type="checkbox" class="productos" onclick="if(this.checked) suma(19,'aceite'); else resta(19,'aceite')">Aceite de oliva - 19€</input></p>
+        <p id="detergente"><input id="detergente" type="checkbox" class="productos" onclick="if(this.checked) suma(9.58,'detergente'); else resta(9.58,'detergente')">Detergente - 9.58€</input></p>
+        <hr>
+        <h3>Total: </h3>
+        <p id="total" class="extras3"> 0.00 </p>
+        <br>
+        <p>Lista de estilos <a href="./estilos.css">aqui</a></p>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+button {
+    color:yellowgreen;
+    background-color: brown;
+    border-radius:20%;
+}
+
+button:hover {
+    color:yellowgreen;
+    background-color: black;
+    border-radius:20%;
+}
+
+p {
+    font-family:'Times New Roman';
+}
+
+a:hover {
+    background-color: red;
+}
+
+a:visited {
+    color:brown;
+}
+
+a:link {
+    color:yellow;
+}

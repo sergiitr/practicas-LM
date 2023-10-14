@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+</head>
+<body>
+    <div id="titulo">
+        <header>
+            <p>Practica 14 - Sergio Trillo Rodriguez</p>
+        </header>
+    </div>
+    <br><br><br><br>
+    <form method=post action="mailto:trillorodriguez.sergio@loscerros.org">
+        <fieldset>
+            <legend>Introduzca los datos: </legend>
+            Introduzca el nombre:
+            <input placeholder="Nombre" type="text" class="datos" required="">
+            <br><br>
+            Introduzca el id:
+            <input placeholder="ID" type="text" class="datos" required="">
+            <br><br>
+            Introduzca el correo:
+            <div class="correo">
+                <input placeholder="email" type="text" class="datos">
+                <span>@gmail.com</span>
+            </div>
+            <br>
+            Introduzca la contraseña:
+            <input placeholder="Username" type="password" class="datos" required="">
+            <br><br>
+            Escriba los comentarios:
+            <br>
+            <textarea name="comentarios" rows="8" cols="20" placeholder="Introduzca los comentarios"> </textarea>
+            <br><br>
+            Introduzca sus estudios:
+            <select name="estudios" id="estudios" form="estudios">
+                <option value="ESO">ESO</option>
+                <option value="GM">Grado Medio</option>
+                <option value="GS">Grado superior</option>
+                <option value="audi">Bachillerato</option>
+                <option value="universidad">Univeridad</option>
+                <option value="doctor">Doctorado</option>
+            </select>
+            <br><br>
+            ¿Tenia cuenta anteriormente?
+            <input type="radio" id="si" name="boton">Si
+            <input type="radio" id="no" name="boton"> No
+            <br><br><br>
+            <button class="button" type="submit">
+                <span>Crear cuenta</span>
+            </button>
+            <button class="button" type="reset">
+                <span>Restablecer</span>
+            </button>
+        </fieldset>
+    </form>
+    <p>Enlace a los estilos <a href="./estilos.css">aquí</a></p>
+    <div id="piepag">
+        <footer>Sergio Trillo Rodriguez - 10 de marzo del 2023</footer>
+    </div>
+</body>

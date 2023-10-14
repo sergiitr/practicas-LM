@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    </head>
+    <body>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            function Negrita() {
+                document.getElementById("clases").style.fontWeight = "bold";
+            }
+            function Color() {
+                document.getElementById("clases").style.color = "blue";
+            }
+            function Cursiva() {
+                document.getElementById("clases").style.fontStyle = "italic";
+            }
+            function Tamanio() {
+                document.getElementById("clases").style.fontSize = "30px";
+            }
+            function Letra() {
+                document.getElementById("clases").style.fontFamily = "Verdana";
+            }
+            function Ocultar() {
+                document.getElementById("clases").style.visibility = "hidden";
+            }
+            function Mostrar() {
+                document.getElementById("clases").style.visibility = "visible";
+            }
+            function Defecto() {
+                document.getElementById("clases").style.visibility = "visible"
+                document.getElementById("clases").style.fontSize = "16px";
+                document.getElementById("clases").style.fontStyle = "normal";
+                document.getElementById("clases").style.fontWeight = "normal";
+                document.getElementById("clases").style.Color = "black";
+            }
+        </script>
+        <p id="clases">Texto</p>
+        <button class="clases" onclick='Color()'>Color</button>
+        <button class="clases" onclick='Negrita()'>Negrita</button>
+        <button class="clases" onclick='Cursiva()'>Cursiva</button>
+        <button class="clases" onclick='Tamanio()'>Tamaño</button>
+        <button class="clases" onclick='Letra()'>Letra</button>
+        <button class="clases" onclick='Ocultar()'>Ocultar</button>
+        <button class="clases" onclick='Mostrar()'>Mostrar</button>
+        <button class="clases" onclick='Defecto()'>Por Defecto</button>
+        <p>Fichero listado de estilos <a href="./estilos.css">aqui</a></p>
+    </body>
+</html>
+
+

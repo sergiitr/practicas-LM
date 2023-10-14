@@ -1,0 +1,50 @@
+body {
+    background-color: lightyellow;
+}
+
+h2 {
+    color:yellow;
+    background-color: black;
+}
+
+.botonCircular {
+    display: block;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    color: yellow;
+    background-color: blueviolet;
+    border: 2px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.botonConFoto {
+    display: block;
+    color: rgb(21, 6, 92);
+    width: 90px;
+    background-image: url(./peon.png);
+    opacity: 0.6;
+    text-align: center;
+}
+
+.boton3 {
+    display: block;
+    width: 70px;
+    height: 20px;
+    border-radius: 5%;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.boton4 {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: dashed;
+    color: darkred;
+    background-color: lightcoral;
+    width: 90px;
+    font-size: 17px;
+}

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    </head>
+    <body>
+        <h2>Practica 5 CSS Sergio Trillo Rodriguez</h2>
+        <script lenguage="JavaScript" type="text/JavaScript">
+            function cambia(imagen,texto) {
+                document.getElementById("imagen").src = imagen;
+                document.getElementById("texto").innerHTML = texto;
+            }
+        </script>
+        <p id="texto">Foto amanecer</p>
+        <img id="imagen" src="./img1.jpg">
+        <br>
+        <input type="button" value="Dia" onclick='cambia("img1.jpg","Foto amanecer")'>
+        <input type="button" value="Atardecer" onclick='cambia("img3.jpg","Foto atardecer")'>
+        <input type="button" value="Noche" onclick='cambia("img2.jpg","Foto de noche")'>
+        <p>Fichero listado de estilos <a href="./estilos.css">aqui</a></p>
+    </body>
+</html>
