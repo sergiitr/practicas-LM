@@ -1,0 +1,79 @@
+body{
+    background-color: lightblue;
+}
+
+h2{
+    text-align: center;
+    font-style:italic;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px yellow;
+}
+
+.image-container {
+    width: 33%;
+    float:left;
+}
+
+.item {
+    align-items: center;
+    width: 500px;
+    height:200px;
+    font-size: 17px;
+    background-color:lightblue;
+}
+
+.streaming {
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    height: 150px;
+}
+
+.streaming:hover {
+    transform: scale(0.97);
+    opacity: 0.8;
+}
+
+li {
+    list-style-image: url('./imagenes/ok.png');
+}
+
+.imgfondo1 {
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.imgfondo2 {
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.imgfondo3 {
+    color:white;
+    font-size: 11px;
+}
+
+.imgfondo4 {
+    color: red;
+    font-size: 12px;
+}
+
+#izq {
+    width: 50%;
+    float:left;
+}
+#der {
+    width: 50%;
+    float:right;
+    align-content: center;
+}
+
+a {
+    color: red;
+}

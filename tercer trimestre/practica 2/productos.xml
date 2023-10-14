@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<sportshop>
+    <caption>Sergio Trillo Rodriguez</caption>
+    <cabecera>
+        <codprod>Codigo producto</codprod>
+        <descripcion>Descripcion</descripcion>
+        <preciocompra>Precio Compra</preciocompra>
+        <pvp2>PVP</pvp2>
+        <fechacompra>Fecha Compra</fechacompra>
+        <stock>Stock</stock>
+        <proveedor>Proveedor</proveedor>
+    </cabecera>
+    <productos>
+        <codprod>J935</codprod>
+        <descripcion>Bate de Beisbol</descripcion>
+        <preciocompra>18.99</preciocompra>
+        <pvp>22.50</pvp>
+        <fechacompra>2021-04-25</fechacompra>
+        <stock>20</stock>
+        <proveedor>JOM</proveedor>
+    </productos>
+    <productos2>
+        <codprod>D001</codprod>
+        <descripcion>Raqueta de Tenis</descripcion>
+        <preciocompra>18.00</preciocompra>
+        <pvp>20.00</pvp>
+        <fechacompra>2020-05-05</fechacompra>
+        <stock>15</stock>
+        <proveedor>DUN</proveedor>
+    </productos2>
+    <productos>
+        <codprod>A234</codprod>
+        <descripcion>Zapatillas de Baloncesto James Harden</descripcion>
+        <preciocompra>80.00</preciocompra>
+        <pvp>100.00</pvp>
+        <fechacompra>2021-02-12</fechacompra>
+        <stock>5</stock>
+        <proveedor>ADI</proveedor>
+    </productos>
+    <productos2>
+        <codprod>N007</codprod>
+        <descripcion>Bañador Negro</descripcion>
+        <preciocompra>90.00</preciocompra>
+        <pvp>100.00</pvp>
+        <fechacompra>2020-09-11</fechacompra>
+        <stock>70</stock>
+        <proveedor>NIK</proveedor>
+    </productos2>
+    <productos>
+        <codprod>A999</codprod>
+        <descripcion>Botas de Futcbol Predator</descripcion>
+        <preciocompra>90.00</preciocompra>
+        <pvp>110.00</pvp>
+        <fechacompra>2020-06-12</fechacompra>
+        <stock>30</stock>
+        <proveedor>ADI</proveedor>
+    </productos>
+    <productos2>
+        <codprod>L798</codprod>
+        <descripcion>Guantes de Boxeo</descripcion>
+        <preciocompra>50.00</preciocompra>
+        <pvp>89.00</pvp>
+        <fechacompra>2021-07-10</fechacompra>
+        <stock>20</stock>
+        <proveedor>LEO</proveedor>
+    </productos2>
+    <productos>
+        <codprod>B200</codprod>
+        <descripcion>Bicicleta Electrica</descripcion>
+        <preciocompra>3599.00</preciocompra>
+        <pvp>4299.00</pvp>
+        <fechacompra>2021-09-24</fechacompra>
+        <stock>5</stock>
+        <proveedor>BH</proveedor>
+    </productos>
+    <productos2>
+        <codprod>P222</codprod>
+        <descripcion>Mallas Negras</descripcion>
+        <preciocompra>14.00</preciocompra>
+        <pvp>21.00</pvp>
+        <fechacompra>2020-01-01</fechacompra>
+        <stock>15</stock>
+        <proveedor>PUM</proveedor>
+    </productos2>
+    <productos>
+        <codprod>L034</codprod>
+        <descripcion>Saco Boxeo Leone 1947 Basic 30Kg</descripcion>
+        <preciocompra>75.00</preciocompra>
+        <pvp>155.00</pvp>
+        <fechacompra>2022-02-14</fechacompra>
+        <stock>3</stock>
+        <proveedor>LEO</proveedor>
+    </productos>
+    <productos2>
+        <codprod>H003</codprod>
+        <descripcion>Raqueta Head Graphene Xt Prestige</descripcion>
+        <preciocompra>56.00</preciocompra>
+        <pvp>205.00</pvp>
+        <fechacompra>2018-12-12</fechacompra>
+        <stock>-25</stock>
+        <proveedor>HEA</proveedor>
+    </productos2>
+    <productos>
+        <codprod>A020</codprod>
+        <descripcion>Chanclas Hombre Adilette </descripcion>
+        <preciocompra>3.95</preciocompra>
+        <pvp>24.95</pvp>
+        <fechacompra>2017-07-15</fechacompra>
+        <stock>6</stock>
+        <proveedor>ADI</proveedor>
+    </productos>
+    <productos2>
+        <codprod>H002</codprod>
+        <descripcion>Pala Padel Head Evolution</descripcion>
+        <preciocompra>19.00</preciocompra>
+        <pvp>55.95</pvp>
+        <fechacompra>2018-12-12</fechacompra>
+        <stock>6</stock>
+        <proveedor>HEA</proveedor>
+    </productos2>
+    <productos>
+        <codprod>A103</codprod>
+        <descripcion>Gorra con visera </descripcion>
+        <preciocompra>2.25</preciocompra>
+        <pvp>14.75</pvp>
+        <fechacompra>2017-03-15</fechacompra>
+        <stock>12</stock>
+        <proveedor>ADI</proveedor>
+    </productos>
+    <productos2>
+        <codprod>J004</codprod>
+        <descripcion>Camiseta Termica Negra L</descripcion>
+        <preciocompra>2.25</preciocompra>
+        <pvp>8.06</pvp>
+        <fechacompra>2017-09-30</fechacompra>
+        <stock>14</stock>
+        <proveedor>JOM</proveedor>
+    </productos2>
+    <productos>
+        <codprod>J008</codprod>
+        <descripcion>Chaqueton Snow Negro XL </descripcion>
+        <preciocompra>38.95</preciocompra>
+        <pvp>105.22</pvp>
+        <fechacompra>2017-10-30</fechacompra>
+        <stock>2</stock>
+        <proveedor>JOM</proveedor>
+    </productos>
+    <productos2>
+        <codprod>N001</codprod>
+        <descripcion>Zapatillas Running 40-43</descripcion>
+        <preciocompra>23.50</preciocompra>
+        <pvp>69.95</pvp>
+        <fechacompra>2017-06-15</fechacompra>
+        <stock>30</stock>
+        <proveedor>NIK</proveedor>
+    </productos2>
+    <productos>
+        <codprod>N010</codprod>
+        <descripcion>Zapatillas Basket 44-46</descripcion>
+        <preciocompra>21.95</preciocompra>
+        <pvp>65.95</pvp>
+        <fechacompra>2017-06-15</fechacompra>
+        <stock>2</stock>
+        <proveedor>NIK</proveedor>
+    </productos>
+    <productos2>
+        <codprod>R504</codprod>
+        <descripcion>Malla Gimnasio Mujer</descripcion>
+        <preciocompra>5.50</preciocompra>
+        <pvp>17.90</pvp>
+        <fechacompra>2017-08-15</fechacompra>
+        <stock>7</stock>
+        <proveedor>REE</proveedor>
+    </productos2>
+    <productos>
+        <codprod>R512</codprod>
+        <descripcion>Calcetines Unisex 38-42 P</descripcion>
+        <preciocompra>1.25</preciocompra>
+        <pvp>5.75</pvp>
+        <fechacompra>2018-10-09</fechacompra>
+        <stock>8</stock>
+        <proveedor>REE</proveedor>
+    </productos>
+    <productos2>
+        <codprod>H020</codprod>
+        <descripcion>Pala Padel Head Omega Pro</descripcion>
+        <preciocompra>38.00</preciocompra>
+        <pvp>99.95</pvp>
+        <fechacompra>2018-12-12</fechacompra>
+        <stock>3</stock>
+        <proveedor>HEA</proveedor>
+    </productos2>
+    <productos>
+        <codprod>M010</codprod>
+        <descripcion>Mizuno Wave Unitus 4 </descripcion>
+        <preciocompra>38.95</preciocompra>
+        <pvp>65.45</pvp>
+        <fechacompra>2017-11-28</fechacompra>
+        <stock>0</stock>
+        <proveedor>MIZ</proveedor>
+    </productos>
+    <productos2>
+        <codprod>N002</codprod>
+        <descripcion>Chandal Nike Rojo</descripcion>
+        <preciocompra>29.00</preciocompra>
+        <pvp>59.00</pvp>
+        <fechacompra>2018-10-30</fechacompra>
+        <stock>6</stock>
+        <proveedor>NIK</proveedor>
+    </productos2>
+    <productos>
+        <codprod>H100</codprod>
+        <descripcion>Zapatillas Head Revolt Pro</descripcion>
+        <preciocompra>23.00</preciocompra>
+        <pvp>94.00</pvp>
+        <fechacompra>2018-12-12</fechacompra>
+        <stock>7</stock>
+        <proveedor>HEA</proveedor>
+    </productos>
+    <productos2>
+        <codprod>R222</codprod>
+        <descripcion>Pack Calcetines Reebok</descripcion>
+        <preciocompra>2.00</preciocompra>
+        <pvp>9.00</pvp>
+        <fechacompra>2020-10-21</fechacompra>
+        <stock>25</stock>
+        <proveedor>REE</proveedor>
+    </productos2>
+    <productos>
+        <codprod>R223</codprod>
+        <descripcion>Chandal preciocompra Blanco</descripcion>
+        <preciocompra>25.00</preciocompra>
+        <pvp>100.00</pvp>
+        <fechacompra>2020-10-22</fechacompra>
+        <stock>6</stock>
+        <proveedor>REE</proveedor>
+    </productos>
+    <productos2>
+        <codprod>R220</codprod>
+        <descripcion>Chandal Reebok Gris</descripcion>
+        <preciocompra>25.00</preciocompra>
+        <pvp>90.00</pvp>
+        <fechacompra>2020-10-22</fechacompra>
+        <stock>2</stock>
+        <proveedor>REE</proveedor>
+    </productos2>
+    <productos>
+        <codprod>R221</codprod>
+        <descripcion>Chandal Reebok Negro</descripcion>
+        <preciocompra>25.00</preciocompra>
+        <pvp>90.00</pvp>
+        <fechacompra>2020-10-22</fechacompra>
+        <stock>5</stock>
+        <proveedor>REE</proveedor>
+    </productos>
+    <productos2>
+        <codprod>R224</codprod>
+        <descripcion>Chandal Reebok Rojo</descripcion>
+        <preciocompra>25.00</preciocompra>
+        <pvp>90.00</pvp>
+        <fechacompra>2020-10-22</fechacompra>
+        <stock>6</stock>
+        <proveedor>REE</proveedor>
+    </productos2>
+    <productos>
+        <codprod>R750</codprod>
+        <descripcion>Muñequera Elastica Negra</descripcion>
+        <preciocompra>0.20</preciocompra>
+        <pvp>3.00</pvp>
+        <fechacompra>2020-11-26</fechacompra>
+        <stock>200</stock>
+        <proveedor>REE</proveedor>
+    </productos>
+    <productos2>
+        <codprod>M055</codprod>
+        <descripcion>Gorra invierno</descripcion>
+        <preciocompra>2.50</preciocompra>
+        <pvp>8.75</pvp>
+        <fechacompra>2021-04-19</fechacompra>
+        <stock>10</stock>
+        <proveedor>MIZ</proveedor>
+    </productos2>
+    <productos>
+        <codprod>H055</codprod>
+        <descripcion>Zapatilla Running</descripcion>
+        <preciocompra>30.00</preciocompra>
+        <pvp>55.75</pvp>
+        <fechacompra>2021-04-19</fechacompra>
+        <stock>5</stock>
+        <proveedor>HEA</proveedor>
+    </productos>
+    <productos2>
+        <codprod>L010</codprod>
+        <descripcion>Zapatillas Boxeo Leone premium</descripcion>
+        <preciocompra>21.00</preciocompra>
+        <pvp>59.00</pvp>
+        <fechacompra>2022-02-14</fechacompra>
+        <stock>2</stock>
+        <proveedor>LEO</proveedor>
+    </productos2>
+    <productos>
+        <codprod>C020</codprod>
+        <descripcion>Forro polar Sherpa</descripcion>
+        <preciocompra>39.00</preciocompra>
+        <pvp>89.99</pvp>
+        <fechacompra>2022-03-14</fechacompra>
+        <stock>3</stock>
+        <proveedor>COL</proveedor>
+    </productos>
+    <productos2>
+        <codprod>C030</codprod>
+        <descripcion>Zapatilla Senderismo TrailStorm</descripcion>
+        <preciocompra>39.00</preciocompra>
+        <pvp>99.99</pvp>
+        <fechacompra>2022-03-14</fechacompra>
+        <stock>5</stock>
+        <proveedor>COL</proveedor>
+    </productos2>
+    <productos>
+        <codprod>C021</codprod>
+        <descripcion>Forro polar azul</descripcion>
+        <preciocompra>39.00</preciocompra>
+        <pvp>200.00</pvp>
+        <fechacompra>2023-03-20</fechacompra>
+        <stock>7</stock>
+        <proveedor>COL</proveedor>
+    </productos>
+</sportshop>

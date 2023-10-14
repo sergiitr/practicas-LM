@@ -1,0 +1,62 @@
+sportshop {
+    display:table;
+    border: 5px double black;
+    margin:10px 50px;
+    background-color: dimgray;
+}
+
+cabecera {
+    display: table-row;
+    font: bold 14px arial;
+    text-align: center;
+    background-color: black;
+    color: white;
+    letter-spacing: 6px;
+}
+
+productos {
+    display: table-row;
+    font: 14px arial;
+    text-align: center;
+    background-color: yellow;
+    color:red;
+}
+
+productos2 {
+    display: table-row;
+    font: 14px arial;
+    text-align: center;
+    background-color: red;
+    color:yellow;
+}
+
+codprod,descripcion,preciocompra,pvp,fechacompra,stock,proveedor{
+    display: table-cell;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    padding: 3px 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+pvp {
+    font-weight: bold;
+    color:black;
+    text-shadow: 2px 2px white;
+    font-style: italic;
+}
+
+pvp2 {
+    font-weight: bold;
+    color:white;
+}
+
+caption {
+    display:table-caption;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px red;
+    padding: 30px;
+    font-size:22px;
+    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,32 @@
+direcciones {
+    display:table;
+    width: 500px;
+    border: 5px double black;
+    margin:10px 50px;
+}
+
+titulo {
+    display:table-caption;
+    font: bold italic 20px verdana;
+    color:navy;
+    text-align: center;
+}
+
+cabecera {
+    display: table-row;
+    font: bold 14px arial;
+    text-align: center;
+}
+
+contacto {
+    display: table-row;
+    font: 14px arial;
+    text-align: left;
+}
+
+nombre,telefono,email,edad {
+    display: table-cell;
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding:3px 5px;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="ejercicio1.css"?>
+<cuadros>
+    <caption>Sergio Trillo Rodriguez</caption>
+    <cuadro>Cuadros</cuadro>
+    <cabecera>
+        <titulo>Titulo</titulo>
+        <autor>Autor</autor>
+        <nacionalidad>Nacionalidad</nacionalidad>
+        <anio>Año</anio>
+        <estilo>estilo</estilo>
+    </cabecera>
+    <descripcion>
+        <titulo>El Jardin de las delicias</titulo>
+        <autor>El Bosco</autor>
+        <nacionalidad>Paises Bajos</nacionalidad>
+        <anio>1503–1515</anio>
+        <estilo>Arte clasico</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>El beso</titulo>
+        <autor>Gustav Klimt</autor>
+        <nacionalidad>Austria</nacionalidad>
+        <anio>1907-1908</anio>
+        <estilo>Escena de género</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>El grito</titulo>
+        <autor>Edvard Munch</autor>
+        <nacionalidad>Noruega</nacionalidad>
+        <anio>1893</anio>
+        <estilo>Expresionismo</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>Guernica</titulo>
+        <autor>Pablo Picasso</autor>
+        <nacionalidad>España</nacionalidad>
+        <anio>1937</anio>
+        <estilo>Expresionismo</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>La gran ola de Kanagawa</titulo>
+        <autor>Katsushika Hokusai</autor>
+        <nacionalidad>Japón</nacionalidad>
+        <anio>1831</anio>
+        <estilo>Ukiyo-e</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>La joven de la perla</titulo>
+        <autor>Johannes Vermeer</autor>
+        <nacionalidad>Paises Bajos</nacionalidad>
+        <anio>1665</anio>
+        <estilo>Barroco</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>La noche estrellada</titulo>
+        <autor>Vincent van Gogh</autor>
+        <nacionalidad>Paises Bajos</nacionalidad>
+        <anio>1889</anio>
+        <estilo>Arte moderno</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>La persistencia de la memoria</titulo>
+        <autor>Salvador Dalí</autor>
+        <nacionalidad>España</nacionalidad>
+        <anio>1931</anio>
+        <estilo>Surrealismo</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>Sol de la Mañana</titulo>
+        <autor>Edward Hopper</autor>
+        <nacionalidad>Estados Unidos</nacionalidad>
+        <anio>1952</anio>
+        <estilo>Neoclasicismo</estilo>
+    </descripcion>
+    <descripcion>
+        <titulo>Las Meninas</titulo>
+        <autor>Diego Velázquez</autor>
+        <nacionalidad>España</nacionalidad>
+        <anio>1656</anio>
+        <estilo>Barroco</estilo>
+    </descripcion>
+</cuadros>

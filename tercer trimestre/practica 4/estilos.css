@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+h1 {
+    background-color: blue;
+    color:red;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px blue;
+}
+
+.image-container {
+    width: 50%;
+    float: left;
+    gap: 5px;
+}
+
+.item {
+    align-items: center;
+    width: 300px;
+    height:280px;
+    font-size: 17px;
+    background-color:chartreuse;
+    margin-left: 110px;
+}
+
+img {
+    height: 100px;
+}

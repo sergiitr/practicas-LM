@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio1.xsl"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<cuadros>
+    <cuadros_famosos>
+        <descripcion titulo="El Jardin de las delicias">
+            <dibujo ruta="JardinDeLasDelicias.jpg"></dibujo>
+            <titulo>El Jardin de las delicias</titulo>
+            <autor>El Bosco</autor>
+            <nacionalidad>Paises Bajos</nacionalidad>
+            <anio>1503–1515</anio>
+            <estilo>Arte clasico</estilo>
+        </descripcion>
+        <descripcion titulo="El Beso">
+            <dibujo ruta="./ElBeso.jpg"/>
+            <titulo>El beso</titulo>
+            <autor>Gustav Klimt</autor>
+            <nacionalidad>Austria</nacionalidad>
+            <anio>1907-1908</anio>
+            <estilo>Escena de género</estilo>
+        </descripcion>
+        <descripcion titulo="El Grito">
+            <dibujo ruta="./ElGrito.jpg"/>
+            <titulo>El grito</titulo>
+            <autor>Edvard Munch</autor>
+            <nacionalidad>Noruega</nacionalidad>
+            <anio>1893</anio>
+            <estilo>Expresionismo</estilo>
+        </descripcion>
+        <descripcion titulo="Guernica">
+            <dibujo ruta="./Guernica.jpg"/>
+            <titulo>Guernica</titulo>
+            <autor>Pablo Picasso</autor>
+            <nacionalidad>España</nacionalidad>
+            <anio>1937</anio>
+            <estilo>Expresionismo</estilo>
+        </descripcion>
+        <descripcion titulo="La gran ola de Kanagawa">
+            <dibujo ruta="./LaGranOlaDeKanagawa.jpg"/>
+            <titulo>La gran ola de Kanagawa</titulo>
+            <autor>Katsushika Hokusai</autor>
+            <nacionalidad>Japón</nacionalidad>
+            <anio>1831</anio>
+            <estilo>Ukiyo-e</estilo>
+        </descripcion>
+        <descripcion titulo="La joven de la perla">
+            <dibujo ruta="./LaJovenDeLaPerla.jpg"/>
+            <titulo>La joven de la perla</titulo>
+            <autor>Johannes Vermeer</autor>
+            <nacionalidad>Paises Bajos</nacionalidad>
+            <anio>1665</anio>
+            <estilo>Barroco</estilo>
+        </descripcion>
+        <descripcion titulo="La noche estrellada">
+            <dibujo ruta="./LaNocheEstrellada.jpg"/>
+            <titulo>La noche estrellada</titulo>
+            <autor>Vincent van Gogh</autor>
+            <nacionalidad>Paises Bajos</nacionalidad>
+            <anio>1889</anio>
+            <estilo>Arte moderno</estilo>
+        </descripcion>
+        <descripcion titulo="La persistencia de la memoria">
+            <dibujo ruta="./LaPersistenciaDeLaMemoria.jpg"/>
+            <titulo>La persistencia de la memoria</titulo>
+            <autor>Salvador Dalí</autor>
+            <nacionalidad>España</nacionalidad>
+            <anio>1931</anio>
+            <estilo>Surrealismo</estilo>
+        </descripcion>
+        <descripcion titulo="Sol de la Mañana">
+            <dibujo ruta="./SolDeLaManana.jpg"/>
+            <titulo>Sol de la Mañana</titulo>
+            <autor>Edward Hopper</autor>
+            <nacionalidad>Estados Unidos</nacionalidad>
+            <anio>1952</anio>
+            <estilo>Neoclasicismo</estilo>
+        </descripcion>
+        <descripcion titulo="Las Meninas">
+            <dibujo ruta="./Meninas.jpg"/>
+            <titulo>Las Meninas</titulo>
+            <autor>Diego Velázquez</autor>
+            <nacionalidad>España</nacionalidad>
+            <anio>1656</anio>
+            <estilo>Barroco</estilo>
+        </descripcion>
+    </cuadros_famosos>
+</cuadros>

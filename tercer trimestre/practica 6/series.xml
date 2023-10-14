@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="series.xsl"?>
+<peliculas>
+    <web ruta="https://www.emmys.com/awards/nominees-winners"> Web Oficial Emmys</web>
+    <series>
+        <titulo>Last of Us</titulo>
+        <dibujo ruta="./imagenes/lastofus.jpg"/>
+        <anio>2023</anio>
+        <actor1>Pedro Pascal</actor1>
+        <actor2>Bella Ramsey</actor2>
+        <temporadas>1</temporadas>
+        <plataforma>HBO</plataforma>
+        <valoracion>9</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film205905.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>The Mandalorian</titulo>
+        <dibujo ruta="./imagenes/Mandalorian.jpg"/>
+        <anio>2019</anio>
+        <actor1>Pedro Pascal</actor1>
+        <actor2>Katee Sakhoff</actor2>
+        <temporadas>3</temporadas>
+        <plataforma>Disney +</plataforma>
+        <valoracion>8</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film544948.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>Willow</titulo>
+        <dibujo ruta="./imagenes/Willow.jpg"/>
+        <anio>2022</anio>
+        <actor1>Warwick Davis</actor1>
+        <actor2>Rubi Cruz</actor2>
+        <temporadas>1</temporadas>
+        <plataforma>Amazon Prime</plataforma>
+        <valoracion>4</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film674523.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>The Peripheral</titulo>
+        <dibujo ruta="./imagenes/Peripheral.jpg"/>
+        <anio>2022</anio>
+        <actor1>Chloë Grace Moretz</actor1>
+        <actor2>Gary Carr</actor2>
+        <temporadas>1</temporadas>
+        <plataforma>Amazon Prime</plataforma>
+        <valoracion>4</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film110217.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>Obi Wan Kenobi</titulo>
+        <dibujo ruta="./imagenes/Kenobi.jpg"/>
+        <anio>2022</anio>
+        <actor1>Ewan McGregor</actor1>
+        <actor2>Indira Varma</actor2>
+        <temporadas>1</temporadas>
+        <plataforma>Disney +</plataforma>
+        <valoracion>8</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film677781.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>Moon Knight</titulo>
+        <dibujo ruta="./imagenes/caballeroluna.jpg"/>
+        <anio>2022</anio>
+        <actor1>Oscar Isaac</actor1>
+        <actor2>Ethan Hawke</actor2>
+        <temporadas>1</temporadas>
+        <plataforma>Disney +</plataforma>
+        <valoracion>4</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film520907.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>Outer Banks</titulo>
+        <dibujo ruta="./imagenes/outerbanks.jpg"/>
+        <anio>2020</anio>
+        <actor1>Chase Stokes</actor1>
+        <actor2>Madelyn Cline</actor2>
+        <temporadas>3</temporadas>
+        <plataforma>Netflix</plataforma>
+        <valoracion>2</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film280010.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>El juego del calamar</titulo>
+        <dibujo ruta="./imagenes/juegodelcalamar.jpg"/>
+        <anio>2021</anio>
+        <actor1>Lee Jung-jae</actor1>
+        <actor2>Park Hae-soo</actor2>
+        <temporadas>1</temporadas>
+        <plataforma>Netflix</plataforma>
+        <valoracion>4</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film540777.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>Yellowstone</titulo>
+        <dibujo ruta="./imagenes/Yellowstone.jpg"/>
+        <anio>2018</anio>
+        <actor1>Kevin Costner</actor1>
+        <actor2>Kelly Reilly</actor2>
+        <temporadas>5</temporadas>
+        <plataforma>SkyShowtime</plataforma>
+        <valoracion>7</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film777909.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>The Watcher</titulo>
+        <dibujo ruta="./imagenes/watcher.jpg"/>
+        <anio>2022</anio>
+        <actor1>Naomi Watts</actor1>
+        <actor2>Bobby Cannavale</actor2>
+        <temporadas>1</temporadas>
+        <plataforma>Netflix</plataforma>
+        <valoracion>7</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film650608.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>Reacher</titulo>
+        <dibujo ruta="./imagenes/Reacher.jpg"/>
+        <anio>2022</anio>
+        <actor1>Alan Ritchson</actor1>
+        <actor2>Willa Fitzgerald</actor2>
+        <temporadas>2</temporadas>
+        <plataforma>Amazon Prime</plataforma>
+        <valoracion>6</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film893500.html">Enlace</web>
+    </series>
+    <series>
+        <titulo>The Witcher</titulo>
+        <dibujo ruta="./imagenes/witcher.jpeg"/>
+        <anio>2019</anio>
+        <actor1>Henry Cavill</actor1>
+        <actor2>Anya Chalotra</actor2>
+        <temporadas>2</temporadas>
+        <plataforma>Netflix</plataforma>
+        <valoracion>2</valoracion>
+        <web ruta="https://www.filmaffinity.com/es/film647070.html">Enlace</web>
+    </series>
+</peliculas>

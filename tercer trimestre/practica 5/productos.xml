@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="productos.xsl"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<pizzeria>
+    <web ruta="http://www.telepizza.es"> Web </web>
+    <productos>
+        <idprod>B007</idprod>
+        <dibujo ruta="./Imagenes/mahou.png"/>
+        <descripcion>Mahou 5 estrellas</descripcion>
+        <precio>2.50</precio>
+        <tipo>B</tipo>
+    </productos>
+    <productos>
+        <idprod>H001</idprod>
+        <dibujo ruta="./Imagenes/basica.png"/>
+        <descripcion>Hamburguesa Basica</descripcion>
+        <precio>2.30</precio>
+        <tipo>H</tipo>
+    </productos>
+    <productos>
+        <idprod>H002</idprod>
+        <dibujo ruta="./Imagenes/conqueso.png"/>
+        <descripcion>Hamburguesa con Queso</descripcion>
+        <precio>3.01</precio>
+        <tipo>H</tipo>
+    </productos>
+    <productos>
+        <idprod>H003</idprod>
+        <dibujo ruta="./Imagenes/maxi.png"/>
+        <descripcion>Hamburguesa Maxi</descripcion>
+        <precio>4.21</precio>
+        <tipo>H</tipo>
+    </productos>
+    <productos>
+        <idprod>H004</idprod>
+        <dibujo ruta="./Imagenes/completa.png"/>
+        <descripcion>Hamburguesa Completa</descripcion>
+        <precio>3.90</precio>
+        <tipo>H</tipo>
+    </productos>
+    <productos>
+        <idprod>H005</idprod>
+        <dibujo ruta="./Imagenes/vegana.jpg"/>
+        <descripcion>Hamburguesa Vegana</descripcion>
+        <precio>6.33</precio>
+        <tipo>H</tipo>
+    </productos>
+    <productos>
+        <idprod>P001</idprod>
+        <dibujo ruta="./Imagenes/pizza_barbacoa.jpg"/>
+        <descripcion>Pizza Barbacoa</descripcion>
+        <precio>11.40</precio>
+        <tipo>P</tipo>
+    </productos>
+    <productos>
+        <idprod>P003</idprod>
+        <dibujo ruta="./Imagenes/pizza_carbonara.jpg"/>
+        <descripcion>Pizza Carbonara</descripcion>
+        <precio>12.30</precio>
+        <tipo>P</tipo>
+    </productos>
+    <productos>
+        <idprod>P004</idprod>
+        <dibujo ruta="./Imagenes/pizza_pepperoni.jpg"/>
+        <descripcion>Pizza Peperoni</descripcion>
+        <precio>11.35</precio>
+        <tipo>P</tipo>
+    </productos>
+    <productos>
+        <idprod>P005</idprod>
+        <dibujo ruta="./Imagenes/pizza_napolitana.jpg"/>
+        <descripcion>Pizza Napolitana</descripcion>
+        <precio>9.98</precio>
+        <tipo>P</tipo>
+    </productos>
+    <productos>
+        <idprod>E001</idprod>
+        <dibujo ruta="./Imagenes/ensalada_mixta.jpg"/>
+        <descripcion>Ensalada mixta</descripcion>
+        <precio>3.77</precio>
+        <tipo>E</tipo>
+    </productos>
+    <productos>
+        <idprod>E002</idprod>
+        <dibujo ruta="./Imagenes/Ensalada_cesar.jpg"/>
+        <descripcion>Ensalada Cesar</descripcion>
+        <precio>4.77</precio>
+        <tipo>E</tipo>
+    </productos>
+    <productos>
+        <idprod>F001</idprod>
+        <dibujo ruta="./Imagenes/patatas_fritas.png"/>
+        <descripcion>Patatas fritas</descripcion>
+        <precio>3.75</precio>
+        <tipo>F</tipo>
+    </productos>
+    <productos>
+        <idprod>F002</idprod>
+        <dibujo ruta="./Imagenes/patatasfritas_con_huevo.jpg"/>
+        <descripcion>Patatas fritas con huevo</descripcion>
+        <precio>4.70</precio>
+        <tipo>F</tipo>
+    </productos>
+    <productos>
+        <idprod>F004</idprod>
+        <dibujo ruta="./Imagenes/nuggets_pollo.jpg"/>
+        <descripcion>Nuggets de Pollo</descripcion>
+        <precio>5.94</precio>
+        <tipo>F</tipo>
+    </productos>
+    <productos>
+        <idprod>B003</idprod>
+        <dibujo ruta="./Imagenes/alhambra.png"/>
+        <descripcion>Alhambra Special</descripcion>
+        <precio>2.45</precio>
+        <tipo>B</tipo>
+    </productos>
+</pizzeria>

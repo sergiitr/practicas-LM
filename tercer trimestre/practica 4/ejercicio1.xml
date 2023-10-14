@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejercicio1.xsl"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+<cuadros>
+    <cuadros_famosos>
+        <descripcion titulo="El Jardin de las delicias">
+            <numero num="1">1</numero>
+            <dibujo ruta="JardinDeLasDelicias.jpg"></dibujo>
+            <titulo>El Jardin de las delicias</titulo>
+            <autor>El Bosco</autor>
+            <nacionalidad>Paises Bajos</nacionalidad>
+            <anio>1503–1515</anio>
+            <estilo>Arte clasico</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/El_jard%C3%ADn_de_las_delicias">Enlace</web>
+        </descripcion>
+        <descripcion titulo="El Beso">
+            <numero num="2">2</numero>
+            <dibujo ruta="./ElBeso.jpg"/>
+            <titulo>El beso</titulo>
+            <autor>Gustav Klimt</autor>
+            <nacionalidad>Austria</nacionalidad>
+            <anio>1907-1908</anio>
+            <estilo>Escena de género</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/El_beso_(Gustav_Klimt)">Enlace</web>
+        </descripcion>
+        <descripcion titulo="El Grito">
+            <numero num="3">3</numero>
+            <dibujo ruta="./ElGrito.jpg"/>
+            <titulo>El grito</titulo>
+            <autor>Edvard Munch</autor>
+            <nacionalidad>Noruega</nacionalidad>
+            <anio>1893</anio>
+            <estilo>Expresionismo</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/El_grito">Enlace</web>
+        </descripcion>
+        <descripcion titulo="Guernica">
+            <numero num="4">4</numero>
+            <dibujo ruta="./Guernica.jpg"/>
+            <titulo>Guernica</titulo>
+            <autor>Pablo Picasso</autor>
+            <nacionalidad>España</nacionalidad>
+            <anio>1937</anio>
+            <estilo>Expresionismo</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/Guernica_(cuadro)">Enlace</web>
+        </descripcion>
+        <descripcion titulo="La gran ola de Kanagawa">
+            <numero num="5">5</numero>
+            <dibujo ruta="./LaGranOlaDeKanagawa.jpg"/>
+            <titulo>La gran ola de Kanagawa</titulo>
+            <autor>Katsushika Hokusai</autor>
+            <nacionalidad>Japón</nacionalidad>
+            <anio>1831</anio>
+            <estilo>Ukiyo-e</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/La_gran_ola_de_Kanagawa">Enlace</web>
+        </descripcion>
+        <descripcion titulo="La joven de la perla">
+            <numero num="6">6</numero>
+            <dibujo ruta="./LaJovenDeLaPerla.jpg"/>
+            <titulo>La joven de la perla</titulo>
+            <autor>Johannes Vermeer</autor>
+            <nacionalidad>Paises Bajos</nacionalidad>
+            <anio>1665</anio>
+            <estilo>Barroco</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/La_joven_de_la_perla">Enlace</web>
+        </descripcion>
+        <descripcion titulo="La noche estrellada">
+            <numero num="7">7</numero>
+            <dibujo ruta="./LaNocheEstrellada.jpg"/>
+            <titulo>La noche estrellada</titulo>
+            <autor>Vincent van Gogh</autor>
+            <nacionalidad>Paises Bajos</nacionalidad>
+            <anio>1889</anio>
+            <estilo>Arte moderno</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/La_noche_estrellada">Enlace</web>
+        </descripcion>
+        <descripcion titulo="La persistencia de la memoria">
+            <numero num="8">8</numero>
+            <dibujo ruta="./LaPersistenciaDeLaMemoria.jpg"/>
+            <titulo>La persistencia de la memoria</titulo>
+            <autor>Salvador Dalí</autor>
+            <nacionalidad>España</nacionalidad>
+            <anio>1931</anio>
+            <estilo>Surrealismo</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/La_persistencia_de_la_memoria">Enlace</web>
+        </descripcion>
+        <descripcion titulo="Sol de la Mañana">
+            <numero num="9">9</numero>
+            <dibujo ruta="./SolDeLaManana.jpg"/>
+            <titulo>Sol de la Mañana</titulo>
+            <autor>Edward Hopper</autor>
+            <nacionalidad>Estados Unidos</nacionalidad>
+            <anio>1952</anio>
+            <estilo>Neoclasicismo</estilo>
+            <web enlace="https://historia-arte.com/obras/hopper-sol-de-la-manana">Enlace</web>
+        </descripcion>
+        <descripcion titulo="Las Meninas">
+            <numero num="10">10</numero>
+            <dibujo ruta="./Meninas.jpg"/>
+            <titulo>Las Meninas</titulo>
+            <autor>Diego Velázquez</autor>
+            <nacionalidad>España</nacionalidad>
+            <anio>1656</anio>
+            <estilo>Barroco</estilo>
+            <web enlace="https://es.wikipedia.org/wiki/Las_meninas">Enlace</web>
+        </descripcion>
+    </cuadros_famosos>
+</cuadros>

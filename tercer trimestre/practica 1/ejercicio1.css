@@ -1,0 +1,49 @@
+cuadros {
+    display:table;
+    border: 5px double black;
+    margin:10px 50px;
+    background-color: aquamarine;
+}
+
+cuadro {
+    display:table-caption;
+    font: bold italic 20px verdana;
+    color:navy;
+    text-align: center;
+}
+
+cabecera {
+    display: table-row;
+    font: bold 14px arial;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+descripcion {
+    display: table-row;
+    font: 14px arial;
+    text-align: center;
+    background-color: blue;
+    color:yellowgreen;
+}
+
+titulo,autor,nacionalidad,anio,estilo{
+    display: table-cell;
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 3px 5px;  
+}
+
+anio {
+    width: 75px;
+}
+
+caption {
+    display:table-caption;
+    text-align: center;
+    color: red;
+    padding: 30px;
+    font-size:22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
