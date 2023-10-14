@@ -1,0 +1,159 @@
+body{
+    margin:60px;
+    background-image: url('./imagenes/fondohbo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    font-style:italic;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    text-shadow: 2.5px 2.5px yellow;
+}
+
+.image-container {
+    width: 33%;
+    float:left;
+}
+
+.item {
+    align-items: center;
+    width: 500px;
+    height:200px;
+    font-size: 17px;
+}
+
+.streaming {
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    height: 150px;
+}
+
+.streaming:hover {
+    transform: scale(0.97);
+    opacity: 0.8;
+}
+
+li {
+    list-style-image: url('./imagenes/ok.png');
+}
+
+.imgfondo1 {
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.imgfondo2 {
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.imgfondo3 {
+    color:lightcoral;
+    font-size: 11px;
+}
+
+.imgfondo4 {
+    color: red;
+    font-size: 12px;
+}
+
+#izq {
+    padding-left: 10%;
+    width: 40%;
+    float:left;
+}
+
+#der {
+    width: 50%;
+    float:right;
+}
+
+a {
+    color: red;
+}
+
+.plataformas {
+    height: 50px;
+    border-radius: 0%;
+}
+
+.carita {
+    height: 20px;
+}
+
+img {
+    border-radius: 10%;
+}
+
+img:hover {
+    transform: scale(0.95);
+}
+
+.plataformas:hover {
+    transition: 0.70s;
+    transform: scale(0.75);
+    opacity: 0.8;
+}
+
+.carita:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.btn {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: black;
+    z-index: -1;
+    transition: all 1s;
+}
+
+.btn:hover::before {
+    width: 160%;
+}
+
+.p2 {
+    text-align: center;
+}

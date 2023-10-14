@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="series2.xsl"?>
+<serie>
+    <web ruta="https://www.disneyplus.com/series/futurama/4B9X20Pjihaf?distributionPartner=google"> Web Oficial</web>
+    <personajes>
+        <nombre>Philip J. Fry</nombre>
+        <dibujo ruta="./imagenes/philip.png"/>
+        <descripcion>Joven repartidor de pizza en el año 1999 que cae en una cámara criogénica y queda congelado por espacio de 1000 años</descripcion>
+        <personalidad>Ingenuo, dulce, amable y profundamente, profundamente estúpido.</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Philip_J._Fry">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Turanga Leela</nombre>
+        <dibujo ruta="./imagenes/leela.jpg"/>
+        <descripcion>Mutante de alcantarilla, capitana de Planet Express. Philip Fry está enamorado de ella</descripcion>
+        <personalidad>Dura, letal y sin tonterías</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Turanga_Leela">Enlace</web>
+
+    </personajes>
+
+    <personajes>
+        <nombre>Bender</nombre>
+        <dibujo ruta="./imagenes/bender.png"/>
+        <descripcion>Es el mejor amigo de Fry, y el cocinero de Planet Express</descripcion>
+        <personalidad>Narcisista, agresivo y, sin embargo, extrañamente adorable.</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Bender_(Futurama)">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Doctor John A. Zoidberg</nombre>
+        <dibujo ruta="./imagenes/doctor.jpg"/>
+        <descripcion>Es un alienígena parecido a una langosta procedente del planeta Decapod 10. Zoidberg es el médico de la empresa Planet Express</descripcion>
+        <personalidad>Sensible e intuitivo respecto a sí mismo y a los demás es compasivo, discretos y respetuoso.</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Doctor_Zoidberg">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Amy Wong</nombre>
+        <dibujo ruta="./imagenes/AmyWong.jpg"/>
+        <descripcion>Es alumna de la Universidad de Marte en donde estudia ingeniería, pero la mayor parte de su tiempo lo pasa trabajando como becaria en Planet Express. Personalidad alegre, algo torpe y alocada</descripcion>
+        <personalidad>Alegre, algo torpe y alocada y bastante promiscua.</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Amy_Wong">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Profesor Hubert J. Farnsworth</nombre>
+        <dibujo ruta="./imagenes/profesor.jpg"/>
+        <descripcion>Es inventor, científico y profesor de la Universidad de Marte.</descripcion>
+        <personalidad>Persona analítica que examina todo el tiempo las cosas de forma intelectual</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Profesor_Hubert_Farnsworth">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Zapp Brannigan</nombre>
+        <dibujo ruta="./imagenes/zapp.jpg"/>
+        <descripcion>Está inspirado en el capitán de Star Trek James T. Kirk</descripcion>
+        <personalidad>En el fondo no es más que un niño consentido, sensible y miedoso</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Zapp_Brannigan">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Kif Kroker</nombre>
+        <dibujo ruta="./imagenes/kif.jpg"/>
+        <descripcion>Fue el ayudante de Zapp Brannigan y primer oficial de la nave espacial de la Orden Democrática de Planetas</descripcion>
+        <personalidad>Desea crear armonía a su alrededor, evitar conflictos y tensiones</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Kif_Kroker">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Hermes Conrad</nombre>
+        <dibujo ruta="./imagenes/hermes.jpg"/>
+        <descripcion>Es un burócrata jamaicano con un don especial para archivar. También es un bailarín olímpico de limbo.</descripcion>
+        <personalidad>Persona no muy simpática, muy indiferente a los problemas de sus compañeros</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Hermes_Conrad">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Nibbler</nombre>
+        <dibujo ruta="./imagenes/Nibbler.jpg"/>
+        <descripcion>Es un extraterrestre de raza nibloniana procedente del planeta Eternium. Es muy cariñoso y es la mascota de Turanga Leela.</descripcion>
+        <personalidad>Es muy cariñoso</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Nibbler">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Mamá</nombre>
+        <dibujo ruta="./imagenes/mama.png"/>
+        <descripcion>Dueña de la Corporación Robótica de Mamá, creadora de todos los robots que existen en la ciudad de Nueva Nueva York, y de todos los existentes en la Tierra.</descripcion>
+        <personalidad>Malvada capitalista que se viste sexy para atrapar desprevenidos a sus consumidores</personalidad>
+        <web ruta="https://es.wikipedia.org/wiki/Mam%C3%A1_(personaje_de_Futurama)">Enlace</web>
+    </personajes>
+
+    <personajes>
+        <nombre>Scruffy</nombre>
+        <dibujo ruta="./imagenes/Scruffy.jpg"/>
+        <descripcion>El conserje de Planet Express. Una broma recurrente es que como se relaciona tan poco con el resto de empleados.</descripcion>
+        <personalidad>No trata de llamar la atención, es bastante tranquilo, pero también tiene mucha curiosidad</personalidad>
+        <web ruta="https://futurama.fandom.com/es/wiki/Scruffy_Scruffington">Enlace</web>
+    </personajes>
+</serie>

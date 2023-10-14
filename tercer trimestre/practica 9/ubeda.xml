@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="aemet.xsl"?>
+<prediccion>
+  <origen>
+    <productor>Agencia Estatal de Meteorología - AEMET. Gobierno de España</productor>
+    <web>https://www.aemet.es</web>
+    <enlace>https://www.aemet.es/es/eltiempo/prediccion/municipios/ubeda-id23092</enlace>
+  </origen>
+  <nombre>Úbeda</nombre>
+  <provincia>Jaén</provincia>
+  <dia>
+    <fecha>07-05-2023</fecha>
+    <prob_precipitacion>0</prob_precipitacion>
+    <estado_cielo>Poco nuboso</estado_cielo>
+    <direccion>S</direccion>
+    <velocidad>15</velocidad>
+    <temp_maxima>29</temp_maxima>
+    <temp_minima>14</temp_minima>
+    <hum_maxima>45</hum_maxima>
+    <hum_minima>20</hum_minima>
+  </dia>
+  <dia>
+    <fecha>08-05-2023</fecha>
+    <prob_precipitacion>0</prob_precipitacion>
+    <estado_cielo>Poco nuboso</estado_cielo>
+    <direccion>NO</direccion>
+    <velocidad>10</velocidad>
+    <temp_maxima>31</temp_maxima>
+    <temp_minima>14</temp_minima>
+    <hum_maxima>75</hum_maxima>
+    <hum_minima>15</hum_minima>
+  </dia>
+  <dia>
+    <fecha>09-05-2023</fecha>
+    <prob_precipitacion>0</prob_precipitacion>
+    <estado_cielo>Poco nuboso</estado_cielo>
+    <direccion>O</direccion>
+    <velocidad>15</velocidad>
+    <temp_maxima>33</temp_maxima>
+    <temp_minima>16</temp_minima>
+    <hum_maxima>50</hum_maxima>
+    <hum_minima>15</hum_minima>
+  </dia>
+  <dia>
+    <fecha>10-05-2023</fecha>
+    <prob_precipitacion>0</prob_precipitacion>
+    <estado_cielo>Despejado</estado_cielo>
+    <direccion>O</direccion>
+    <velocidad>5</velocidad>
+    <temp_maxima>30</temp_maxima>
+    <temp_minima>17</temp_minima>
+    <hum_maxima>65</hum_maxima>
+    <hum_minima>20</hum_minima>
+  </dia>
+</prediccion>
